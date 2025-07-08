@@ -36,9 +36,9 @@ void* da_at(da* dynarr, size_t i) {
 int main() {
   da* dynarr = da_new(sizeof(int));
 
-  char* num1 = 123;
-  char* num2 = 456;
-  char* num3 = 789;
+  int num1 = 123;
+  int num2 = 456;
+  int num3 = 789;
 
   da_push(dynarr, &num1);
   da_push(dynarr, &num2);
